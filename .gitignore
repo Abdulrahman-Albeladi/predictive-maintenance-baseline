@@ -1,0 +1,50 @@
+# credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+kaggle.json
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# generated data and model files
+data/*
+!data/README.md
+outputs/
+output/
+results/
+artifacts/
+figures/
+models/
+checkpoints/
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# generated business artifacts
+*.pbix
+*.pptx
+*.xlsx
+
+# archives and operating-system files
+*.zip
+*.tar
+*.gz
+.DS_Store
+Thumbs.db

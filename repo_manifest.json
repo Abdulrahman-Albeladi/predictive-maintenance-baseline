@@ -1,0 +1,27 @@
+{
+  "project": "Predictive Maintenance Baseline Study",
+  "repository": "predictive-maintenance-baseline",
+  "status": "complete",
+  "status_text": "Complete — 21/21 validation checks passed",
+  "notebook": "predictive_maintenance_baseline_study.ipynb",
+  "notebook_sha256": "98bff939bf8bc0e68d5222f2ca209c2639836a4e2fa413b915d63404e4d8877a",
+  "notebook_size_bytes": 82108,
+  "cell_count": 17,
+  "code_cell_count": 10,
+  "markdown_cell_count": 7,
+  "stored_output_count": 11,
+  "executed_code_cell_count": 0,
+  "publisher_generated_at": "2026-07-30T14:08:10.310161+00:00",
+  "publisher_managed_files": [
+    "README.md",
+    "requirements.txt",
+    ".gitignore",
+    ".gitattributes",
+    "LICENSE",
+    "CITATION.cff",
+    "NOTICE.md",
+    "data/README.md",
+    "repo_manifest.json",
+    "predictive_maintenance_baseline_study.ipynb"
+  ]
+}
