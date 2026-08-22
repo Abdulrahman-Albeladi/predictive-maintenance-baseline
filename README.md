@@ -65,7 +65,7 @@ See [`data/README.md`](data/README.md) before adding any local files. Large data
 
 ## Validation approach
 
-The notebook contains project-specific assertions, smoke checks, and a final evidence table. The public repository publisher also verifies notebook format, scans source and stored text outputs for likely credentials, records a SHA-256 digest, and avoids executing unknown notebook code during publishing.
+The notebook contains project-specific assertions, smoke checks, and a final evidence table. Its SHA-256 digest and cell counts are recorded in `repo_manifest.json` for integrity checks.
 
 ## Limitations
 
@@ -75,7 +75,7 @@ The notebook contains project-specific assertions, smoke checks, and a final evi
 
 ## Reproducibility and provenance
 
-The source notebook is copied without rewriting its cells. [`repo_manifest.json`](repo_manifest.json) records its digest, size, cell counts, publishing status, and generation timestamp.
+[`repo_manifest.json`](repo_manifest.json) records the notebook digest, size, and cell counts for integrity checks.
 
 ## License
 

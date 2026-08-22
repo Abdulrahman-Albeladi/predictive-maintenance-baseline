@@ -10,18 +10,5 @@
   "code_cell_count": 10,
   "markdown_cell_count": 7,
   "stored_output_count": 11,
-  "executed_code_cell_count": 0,
-  "publisher_generated_at": "2026-07-30T14:08:10.310161+00:00",
-  "publisher_managed_files": [
-    "README.md",
-    "requirements.txt",
-    ".gitignore",
-    ".gitattributes",
-    "LICENSE",
-    "CITATION.cff",
-    "NOTICE.md",
-    "data/README.md",
-    "repo_manifest.json",
-    "predictive_maintenance_baseline_study.ipynb"
-  ]
+  "executed_code_cell_count": 0
 }
